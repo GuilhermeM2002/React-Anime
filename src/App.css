@@ -1,0 +1,14 @@
+section{
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 760px){
+  section{
+    margin: 32px;
+  }
+}
+@media (min-width: 1024px){
+  section{
+    margin: 36px 124px;
+  }
+}

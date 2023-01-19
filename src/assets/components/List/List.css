@@ -1,0 +1,48 @@
+button{
+    border: none;
+}
+.accordion{
+    margin: 20px 0 0 20px;
+}
+.accordionItem{
+    padding: 12px 0;
+}
+.accordionHeader{
+    margin: 0;
+}
+.accordionTitle{
+    background-color: #fff;
+    font-size: 16px;
+    padding: 0;
+    font-weight: 600;
+}
+.accordionContent{
+    border-radius: 4px;
+    color: #E1E1E6;
+    position: absolute;
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 12px;
+    background-color: #121214;
+    width: 240px;
+
+    animation-name: listAnimation;
+    animation-duration: 0.5s;
+
+}
+@keyframes listAnimation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@media (min-width: 760px){
+    .accordionTitle{
+        font-size: 24px;
+    }
+    .accordionContent{
+        font-size: 20px;
+    }
+}

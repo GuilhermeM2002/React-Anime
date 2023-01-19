@@ -1,0 +1,21 @@
+.header{
+    background-image: url('/images/banner.jpg');
+    height: 148px;
+    padding: 12px;
+}
+.header div{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    height: 36px;
+}
+.header div > p{
+    color: #E1E1E6;
+    font-size: 20px;
+}
+@media(min-width: 760px){
+    .header{
+        background-image: url('/images/bannerLarge.jpg');
+    }
+}

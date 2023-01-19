@@ -1,0 +1,26 @@
+input{
+    background-color: #ADADAD;
+    border-radius: 4px;
+    border: none;
+    color: #121214;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 8px;
+    height: 24px;
+    width: 180px;
+}
+
+input:focus-visible{
+    outline: 1px solid #121214;
+}
+@media (min-width: 375px) {
+    input{
+        width: 220px;
+    }
+}
+@media (min-width: 760px) {
+    input{
+        width: 400px;
+        font-size: 20px;
+    }
+}
